@@ -1,0 +1,82 @@
+* { 
+    font-family: "Oswald", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main { 
+    display: inline-block;
+    width: 100vh;
+    height: 100vw;
+}
+ 
+h1 {  
+    font-size: 60px;
+    margin-left: 200px;
+    color: #5D5D7D;
+}
+p { 
+    font-size: 28px;
+    margin-left: 200px;
+    color: #5D5D7D;
+    opacity: 0.8;
+}
+ button { 
+    width: 269px;
+    height: 62px;
+    margin-left: 200px;
+    background: #9499EA;
+    border-radius: 28px;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 24px;
+    color: #ffffff;
+ }
+
+article { 
+    display: inline-block;
+    margin: 24px 0 0 57px;
+    background: rgb(93, 93, 125, 0.5);
+    padding-right: 100px;
+    position: static;
+    height: 50vw;
+    width: 78vh;
+    
+}
+
+.link-div {
+    font-size: 25px;
+    margin-top: 25px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    padding-right: 50px;
+    cursor: pointer;
+
+}
+
+img { 
+    position: relative;
+    margin-top: 25%;
+    right: 136px
+}
+
+button:active { opacity: 0.5;
+
+}
+
+button:hover { opacity: 0.8;
+
+}
+
+a:nth-child(2) {  opacity: 0.5;
+
+}
+
+a:active { opacity: 0.5;
+
+}
+a:hover { opacity: 0.8;
+
+}
